@@ -1,0 +1,42 @@
+.lead {
+  max-width: 984px;
+  margin: 0 auto;
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0 auto 32px;
+  max-width: 720px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0 auto 64px;
+  max-width: 640px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+}
+
+.caption {
+  margin: 8px 0 0 0;
+  max-width: 160px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
