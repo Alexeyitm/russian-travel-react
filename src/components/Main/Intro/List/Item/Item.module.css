@@ -1,0 +1,10 @@
+.subtitle {
+  margin: 0;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.number {
+  font-weight: 300;
+}
