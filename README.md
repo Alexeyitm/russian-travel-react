@@ -15,6 +15,7 @@
   * CRA
   * JSX
   * React DOM
+  * Router
 * Git
 * Webpack
 
