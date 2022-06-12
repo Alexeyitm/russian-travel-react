@@ -9,3 +9,24 @@
   text-decoration: none;
   color: #FFFFFF;
 }
+
+.link:hover {
+  opacity: .5;
+  transition: 1s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .link {
+    width: calc(22px + (29 - 22) * (100vw - 320px) / (768 - 320));
+    font-size: calc(18px + (24 - 18) * (100vw - 320px) / (768 - 320));
+    line-height: calc(20px + (28 - 20) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .link {
+    width: 22px;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

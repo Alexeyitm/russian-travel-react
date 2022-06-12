@@ -3,6 +3,7 @@ import Lead from './Lead/Lead';
 import Intro from './Intro/Intro';
 import Photos from './Photos/Photos';
 import Places from './Places/Places';
+import Cover from './Cover/Cover';
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
       <Intro />
       <Photos />
       <Places />
+      <Cover />
     </main>
   );
 }

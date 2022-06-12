@@ -1,0 +1,17 @@
+.footer {
+  max-width: 1184px;
+  padding: 92px 0 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.copyright {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+}

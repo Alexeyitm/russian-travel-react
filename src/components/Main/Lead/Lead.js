@@ -8,7 +8,7 @@ function Lead() {
       <h1 className={s.title}>Путешествия по России</h1>
       <p className={s.subtitle}>Настоящая страна не в выпусках новостей, а здесь.</p>
       <img className={s.img} src={Way} alt="Маршрут"></img>
-      <span class={s.caption}>ваша полка — верхняя</span>
+      <span className={s.caption}>ваша полка — верхняя</span>
     </section>
   );
 }

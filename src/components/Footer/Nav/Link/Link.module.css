@@ -1,0 +1,45 @@
+.link {
+  height: 100%;
+  margin-right: 18px;
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: 1s;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  align-self: flex-start;
+}
+
+.link:hover {
+  opacity: .5;
+  transition: 1s;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .link {
+    font-size: calc(24px + (16 - 24) * (100vw - 320px) / (767 - 320));
+    line-height: calc(24px + (18 - 24) * (100vw - 320px) / (767 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .link {
+    margin: 0 0 32px;
+  }
+
+  .link:last-child {
+    margin: 0;
+  }
+}

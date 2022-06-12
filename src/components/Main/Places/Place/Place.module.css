@@ -6,6 +6,10 @@
   margin-bottom: 80px;
 }
 
+.place:last-child {
+  margin-bottom: 0;
+}
+
 .title {
   max-width: 460px;
   width: 100%;
@@ -44,6 +48,10 @@
   color: #FFFFFF;
   transition: 1s;
   align-self: flex-start;
+}
+
+.link:hover {
+  opacity: .5;
 }
 
 .image {
