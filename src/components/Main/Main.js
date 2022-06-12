@@ -10,6 +10,7 @@ function Main() {
       <Lead />
       <Intro />
       <Photos />
+      <Places />
     </main>
   );
 }
