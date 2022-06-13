@@ -7,3 +7,21 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .places {
+    padding: calc(88px + (92 - 88) * (100vw - 768px) / (1024 - 768)) 0 calc(90px + (92 - 90) * (100vw - 768px) / (1024 - 768));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .places {
+    padding: calc(64px + (88 - 64) * (100vw - 320px) / (768 - 320)) 0 calc(66px + (90 - 66) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 64px 0 66px;
+  }
+}

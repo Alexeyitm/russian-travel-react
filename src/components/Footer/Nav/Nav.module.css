@@ -1,3 +1,9 @@
 .nav {
   display: flex;
 }
+
+@media screen and (max-width: 767px) {
+  .nav {
+    flex-direction: column;
+  }
+}

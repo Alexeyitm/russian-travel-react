@@ -6,3 +6,31 @@
   grid-template-columns: repeat(auto-fill, 284px);
   gap: 16px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .photos {
+    grid-template-columns: repeat(auto-fill, calc(300px + (284 - 300) * (100vw - 1024px) / (1280 - 1024)));
+    gap: calc(14px + (16 - 14) * (100vw - 1024px) / (1280 - 1024));
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .photos {
+    grid-template-columns: repeat(auto-fill, calc(352px + (300 - 352) * (100vw - 768px) / (1024 - 768)));
+    gap: calc(16px + (14 - 16) * (100vw - 768px) / (1024 - 768));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .photos {
+    grid-template-columns: repeat(auto-fill, calc(288px + (352 - 288) * (100vw - 320px) / (768 - 320)));
+    gap: calc(12px + (16 - 12) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photos {
+    grid-template-columns: repeat(auto-fill, 288px);
+    gap: 12px;
+  }
+}

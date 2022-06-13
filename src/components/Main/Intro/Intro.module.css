@@ -5,6 +5,33 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .intro {
+    margin: 0 calc(286px + (442 - 286) * (100vw - 1024px) / (1280 - 1024)) 0 calc(48px + (148 - 48) * (100vw - 1024px) / (1280 - 1024));
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro {
+    padding: calc(88px + (92 - 88) * (100vw - 768px) / (1024 - 768)) 0;
+    margin: 0 calc(24px + (286 - 24) * (100vw - 768px) / (1024 - 768)) 0 calc(24px + (48 - 24) * (100vw - 768px) / (1024 - 768));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .intro {
+    padding: calc(64px + (88 - 64) * (100vw - 320px) / (768 - 320)) 0;
+    margin: 0 calc(16px + (24 - 16) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 64px 0;
+    margin: 0 16px;
+  }
+}
+
 .title {
   max-width: 100%;
   margin: 0;
@@ -14,10 +41,30 @@
   line-height: 1.07;
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .title {
+    font-size: calc(32px + (54 - 32) * (100vw - 320px) / (768 - 320));
+    line-height: calc(35px + (58 - 35) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
 .text {
   margin: 40px 0 33px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.63;
+}
+
+@media screen and (max-width: 320px) {
+  .text {
+    margin-bottom: 34px;
+  }
 }

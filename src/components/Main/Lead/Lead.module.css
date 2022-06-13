@@ -6,6 +6,27 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .lead {
+    max-width: calc(928px + (984 - 928) * (100vw - 1024px) / (1280 - 1024));
+    padding-top: calc(48px + (56 - 48) * (100vw - 1024px) / (1280 - 1024));
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead {
+    max-width: calc(768px + (928 - 768) * (100vw - 768px) / (1024 - 768));
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+    padding-top: 48px;
+  }
+}
+
 .title {
   margin: 0 auto 32px;
   max-width: 720px;
@@ -16,6 +37,24 @@
   text-align: center;
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .title {
+    font-size: calc(40px + (96 - 40) * (100vw - 320px) / (768 - 320));
+    max-width: calc(288px + (720 - 288) * (100vw - 320px) / (768 - 320));
+    line-height: calc(44px + (100 - 44) * (100vw - 320px) / (768 - 320));
+    margin-bottom: calc(16px + (32 - 16) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    margin-bottom: 16px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
 .subtitle {
   margin: 0 auto 64px;
   max-width: 640px;
@@ -24,6 +63,36 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .subtitle {
+    margin-bottom: calc(56px + (64 - 56) * (100vw - 1024px) / (1280 - 1024));
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .subtitle {
+    font-size: calc(16px + (30 - 16) * (100vw - 320px) / (768 - 320));
+    max-width: calc(288px + (640 - 288) * (100vw - 320px) / (768 - 320));
+    line-height: calc(20px + (36 - 20) * (100vw - 320px) / (768 - 320));
+    margin-bottom: calc(40px + (56 - 40) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .subtitle {
+    margin-bottom: 40px;
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .img {
@@ -39,4 +108,22 @@
   line-height: 1.4;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .caption {
+    margin-left: calc(24px + (0 - 24) * (100vw - 768px) / (1024 - 768));
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .caption {
+    margin-left: calc(16px + (24 - 16) * (100vw - 320px) / (768 - 320));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .caption {
+    margin-left: 16px;
+  }
 }
