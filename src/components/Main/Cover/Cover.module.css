@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   min-height: 740px;
-  background-image: url(../../../image/Cover/cover-trains.jpg);
+  background: url(../../../image/Cover/cover-trains.jpg);
   margin: 0 auto;
   background-size: cover;
   position: relative;

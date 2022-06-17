@@ -25,13 +25,6 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .header {
-    max-width: calc(288px + (720 - 288) * (100vw - 320px) / (768 - 320));
-    padding-top: calc(16px + (28 - 16) * (100vw - 320px) / (768 - 320));
-  }
-}
-
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;

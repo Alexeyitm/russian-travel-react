@@ -1,9 +1,8 @@
 .logo {
   width: 176px;
   height: 52px;
-  background-image: url(../../../image/Header/header-logo.svg);
+  background: url(../../../image/Header/header-logo.svg) no-repeat;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){
