@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/russian-travel-react/static/css/main.c719f0a1.css",
+    "main.js": "/russian-travel-react/static/js/main.339f62ec.js",
+    "static/js/787.81db8906.chunk.js": "/russian-travel-react/static/js/787.81db8906.chunk.js",
+    "static/media/lead-polka.jpg": "/russian-travel-react/static/media/lead-polka.4336cccac555c7fc2a7b.jpg",
+    "static/media/cover-trains.jpg": "/russian-travel-react/static/media/cover-trains.d20ab4cb5ac9a5b79311.jpg",
+    "static/media/place-winter-baikal.jpg": "/russian-travel-react/static/media/place-winter-baikal.6284362f0abe68c799e2.jpg",
+    "static/media/Inter-Black.woff": "/russian-travel-react/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/russian-travel-react/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/place-kolsky.jpg": "/russian-travel-react/static/media/place-kolsky.0ea4b28612c7fea514dc.jpg",
+    "static/media/place-kosa.jpg": "/russian-travel-react/static/media/place-kosa.18b3a71eb4d54fef6895.jpg",
+    "static/media/Inter-Black.woff2": "/russian-travel-react/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/russian-travel-react/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/photo-grid-baikal-2.jpg": "/russian-travel-react/static/media/photo-grid-baikal-2.d3de96b5514362ac2780.jpg",
+    "static/media/photo-grid-kamchatka-2.jpg": "/russian-travel-react/static/media/photo-grid-kamchatka-2.f863f195568a67969337.jpg",
+    "static/media/photo-grid-elbrus.jpg": "/russian-travel-react/static/media/photo-grid-elbrus.f716768311f872d39eeb.jpg",
+    "static/media/photo-grid-atharva-tulsi.jpg": "/russian-travel-react/static/media/photo-grid-atharva-tulsi.5a1df90e833970594e2c.jpg",
+    "static/media/photo-grid-arisa.jpg": "/russian-travel-react/static/media/photo-grid-arisa.54af1cde4ea3111cde7e.jpg",
+    "static/media/place-altai.jpg": "/russian-travel-react/static/media/place-altai.3a5f4b9152f856c2c683.jpg",
+    "static/media/photo-grid-kamchatka-1.jpg": "/russian-travel-react/static/media/photo-grid-kamchatka-1.44a6cf6ad1a38d0776c3.jpg",
+    "static/media/place-karelia.jpg": "/russian-travel-react/static/media/place-karelia.5613f08ec00393958864.jpg",
+    "static/media/photo-grid-train.jpg": "/russian-travel-react/static/media/photo-grid-train.d2e150ea66d54523381c.jpg",
+    "static/media/photo-grid-tuman.jpg": "/russian-travel-react/static/media/photo-grid-tuman.d7f57a65dd98bc00f9a5.jpg",
+    "static/media/photo-grid-sochi.jpg": "/russian-travel-react/static/media/photo-grid-sochi.99ab1de8859d5058cdfa.jpg",
+    "static/media/photo-grid-baikal.jpg": "/russian-travel-react/static/media/photo-grid-baikal.7b53a3de8be167ae45b6.jpg",
+    "static/media/photo-grid-ergaki.jpg": "/russian-travel-react/static/media/photo-grid-ergaki.2e371c4cd9670a8b6941.jpg",
+    "static/media/photo-grid-kondratiev.jpg": "/russian-travel-react/static/media/photo-grid-kondratiev.fa23cefdef82105df842.jpg",
+    "static/media/header-logo.svg": "/russian-travel-react/static/media/header-logo.573918d3693d5b277475.svg",
+    "index.html": "/russian-travel-react/index.html",
+    "main.c719f0a1.css.map": "/russian-travel-react/static/css/main.c719f0a1.css.map",
+    "main.339f62ec.js.map": "/russian-travel-react/static/js/main.339f62ec.js.map",
+    "787.81db8906.chunk.js.map": "/russian-travel-react/static/js/787.81db8906.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c719f0a1.css",
+    "static/js/main.339f62ec.js"
+  ]
+}
