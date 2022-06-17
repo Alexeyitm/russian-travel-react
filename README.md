@@ -2,7 +2,7 @@
 
 ## О проекте:
 
-Проект [Путешествия по России](https://github.com/Alexeyitm/russian-travel) переписанный на React.js
+Проект [Путешествия по России](https://github.com/Alexeyitm/russian-travel-react) переписанный на React.js
 
 ## Стек:
 
